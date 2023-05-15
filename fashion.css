@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css?family=Tangerine");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.navbar-brand{
+    font-family: 'Nosifer', cursive;
+}
+.navbar{
+    background-color: rgb(7, 7, 7);
+}
+.custom-secondary{
+    background-color: slateblue;
+}
+
+#navbarNav > ul li .nav-link {
+    color: #1efc1e;
+    font-family: 'Nosifer', cursive;
+    
+} 
+
+.menu {
+    margin-left: 34%;
+}
+
+
+.navbar :hover{
+    color: #7e837e!important;
+    
+    
+}
+
+.navbar-brand {
+    color: #1efc1e;
+}
+
+.navbar-collapse .searchbar{
+
+    display: none;
+}
+.main {
+    text-align: center;
+    color: #1efc1e;
+    font-family: 'Nosifer', cursive;
+
+}
+
+.card-body {
+    color: #1efc1e;
+    font-family: 'Nosifer', cursive;
+}
+
+#batton {
+    color: #1efc1e;
+}
+
+.card-img-top{
+    height: 18rem;
+}
+
+.container .card
+{
+    max-width: 300px;
+    height: 215px;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    box-shadow: 0 5px 20px #1efc1e;
+    transition: 0.3s ease-in-out;
+    background-color: black;
+    
+}
+.container .card:hover
+{
+    height: 450px;
+}
+.container .card .imgContainer
+{
+    position: relative;
+    width:250px;
+    height:250px;
+    top:-50px;
+    left:10px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+.container .card .imgContainer img
+{
+    border-radius: 4px;
+    height: 200px;
+    width: 245px;
+    
+}
+.container .card .content
+{
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #1efc1e;
+    font-family: 'Nosifer', cursive;
+    font-size: smaller;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s ease-in-out;
+}
+.container .card:hover .content
+{
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s;
+}
+
+@media (max-width: 330px){
+    .container .card .imgContainer{
+        left: -2px;
+    }
+}
+
+.gridbg {
+    background-color: black;
+    color: #1efc1e;
+    box-shadow: 0 5px 20px #1efc1e;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.carouselshadow {
+    box-shadow: 0 5px 20px #1efc1e;
+}
