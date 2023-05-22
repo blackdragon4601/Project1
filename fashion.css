@@ -15,9 +15,10 @@ body{
 
 .navbar-brand{
     font-family: 'Nosifer', cursive;
+    font-size:x-large;
 }
 .navbar{
-    background-color: rgb(7, 7, 7);
+    background-color: rgb(0, 0, 0);
 }
 .custom-secondary{
     background-color: slateblue;
@@ -25,7 +26,8 @@ body{
 
 #navbarNav > ul li .nav-link {
     color: #1efc1e;
-    font-family: 'Nosifer', cursive;
+    
+    font-size: x-large;
     
 } 
 
@@ -35,7 +37,7 @@ body{
 
 
 .navbar :hover{
-    color: #7e837e!important;
+    color: #ffffff!important;
     
     
 }
@@ -44,23 +46,48 @@ body{
     color: #1efc1e;
 }
 
-.navbar-collapse .searchbar{
+.dropdown-menu{
 
-    display: none;
+    background-color: #000000;
+    
+}
+
+.dropdown-item{
+    color: #1efc1e;
 }
 .main {
     text-align: center;
     color: #1efc1e;
+    background-color: #000000;
+    padding: 05px 05px;
+    margin: 30px 10px;
+    box-shadow: 0 5px 20px #b80c09;
+    border-radius: 4px;
+    max-width: 1290px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.header {
+    text-align: center;
     font-family: 'Nosifer', cursive;
+    color: #1efc1e;
+    background-color: #000000;
+    padding: 05px 05px;
+    margin: 30px 10px;
+    box-shadow: 0 5px 20px #b80c09;
+    border-radius: 4px;
+    max-width: 300px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
 
 }
 
 .card-body {
-    color: #1efc1e;
-    font-family: 'Nosifer', cursive;
-}
-
-#batton {
     color: #1efc1e;
 }
 
@@ -74,10 +101,10 @@ body{
     height: 215px;
     margin: 30px 10px;
     padding: 20px 15px;
-    box-shadow: 0 5px 20px #1efc1e;
+    box-shadow: 0 5px 20px #b80c09;
     transition: 0.3s ease-in-out;
     background-color: black;
-    
+    border-radius: 4px;
 }
 .container .card:hover
 {
@@ -107,8 +134,7 @@ body{
     padding: 10px 15px;
     text-align: center;
     color: #1efc1e;
-    font-family: 'Nosifer', cursive;
-    font-size: smaller;
+    font-size: medium;
     visibility: hidden;
     opacity: 0;
     pointer-events: none;
@@ -131,11 +157,63 @@ body{
 .gridbg {
     background-color: black;
     color: #1efc1e;
-    box-shadow: 0 5px 20px #1efc1e;
+    box-shadow: 0 5px 20px #b80c09;
     border-radius: 4px;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 1300px;
 }
 
 .carouselshadow {
-    box-shadow: 0 5px 20px #1efc1e;
+    box-shadow: 0 5px 20px #b80c09;
+    border-radius: 10px;
+}
+
+.footertext {
+    color: #1efc1e;
+    margin-top: 10px;
+
+}
+
+#mainBody {
+    color: #1efc1e;
+    background-color: #000000;
+    box-shadow: 0 5px 20px #b80c09;
+    border-radius: 4px;
+
+}
+
+
+.carouseltext {
+    color: #1efc1e;
+    font-family: 'Nosifer', cursive;
+    
+}
+
+.categories {
+
+    color: #1efc1e;
+    text-decoration: #1efc1e;
+    font-family: 'Nosifer', cursive;
+}
+
+.btn-dark {
+    background-color: #1efc1e;
+    color: #000000;
+    
+}
+
+.btn-custom-action {
+    color: #ffffff;
+}
+
+.btn-custom-primary {
+    color: #ffffff;
+}
+
+.card-title {
+
+    color: #1efc1e;
+    font-family: 'Nosifer', cursive;
+
 }
